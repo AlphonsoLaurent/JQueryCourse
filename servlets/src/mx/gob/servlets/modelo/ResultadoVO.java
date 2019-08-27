@@ -4,6 +4,8 @@ public class ResultadoVO {
 	private String items;
 	private int puntuacion;
 	private String interpretacion;
+	private String nivel;
+	private String aptitud;
 	
 	public String getItems() {
 		return items;
@@ -22,6 +24,18 @@ public class ResultadoVO {
 	}
 	public void setInterpretacion(String interpretacion) {
 		this.interpretacion = interpretacion;
+	} 
+	public String getNivel() {
+		return nivel;
+	}
+	public void setNivel(String nivel) {
+		this.nivel = nivel;
+	}
+	public String getAptitud() {
+		return aptitud;
+	}
+	public void setAptitud(String aptitud) {
+		this.aptitud = aptitud;
 	}
 	@Override
 	public String toString() {
